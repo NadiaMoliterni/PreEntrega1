@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Mate Arg Campeon 1",
+        "description": "color azul",
+        "code": "4458",
+        "price": 2000,
+        "stock": 20,
+        "category": "campeon"
+    },
+    {
+        "title": "Mate Arg Campeon 2",
+        "description": "color negro",
+        "code": "4457",
+        "price": 2000,
+        "stock": 20,
+        "category": "campeon"
+    },
+    {
+        "title": "Mate Moli P",
+        "description": "color blanco",
+        "code": "9900",
+        "price": 2000,
+        "stock": 20,
+        "category": "personalizado"
+    },
+    {
+        "title": "Mate Moli Map",
+        "description": "color blanco",
+        "code": "9980",
+        "price": 2000,
+        "stock": 20,
+        "category": "map"
+    },
+    {
+        "title": "Mate Moli 1",
+        "description": "color verde",
+        "code": "6699",
+        "price": 2000,
+        "stock": 20,
+        "category": "XL"
+    },
+    {
+        "title": "Mate Moli 2",
+        "description": "color borgoña",
+        "code": "6655",
+        "price": 2000,
+        "stock": 20,
+        "category": "XL"
+    }
+]
