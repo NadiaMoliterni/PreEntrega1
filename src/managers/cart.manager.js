@@ -1,9 +1,16 @@
-import { __dirname } from "../routes/path.js";
+import { __dirname } from "../path.js";
 import fs from "fs";
 import { v4 as uuidv4 } from "uuid";
 
 import ProductManager from "./product.manager.js";
+
+const path = require('path');
 const productManager = new ProductManager(`${__dirname}/data/products.json`);
+
+//const productManager = new ProductManager(path.resolve(__dirname, '../data/products.json'));
+
+//const productManager = new ProductManager(`${__dirname}/../data/products.json`);
+
 
 export default class CartManager {
   constructor(path) {
