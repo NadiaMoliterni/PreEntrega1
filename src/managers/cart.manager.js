@@ -7,11 +7,6 @@ import ProductManager from "./product.manager.js";
 //const path = require('path');
 const productManager = new ProductManager(`${__dirname}/data/products.json`);
 
-//const productManager = new ProductManager(path.resolve(__dirname, '../data/products.json'));
-
-//const productManager = new ProductManager(`${__dirname}/../data/products.json`);
-
-
 export default class CartManager {
   constructor(path) {
     this.path = path;
